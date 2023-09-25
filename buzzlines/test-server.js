@@ -10,12 +10,24 @@ const origins = [
     { "id": 1, "name": "Manchester" },
     { "id": 2, "name": "Bradford" },
     { "id": 3, "name": "Leeds" },
-    { "id": 4, "name": "Hull" }
+    { "id": 5, "name": "Liverpool" },
 ]
 
 const destinations = {
     "1": [
-        { "id": 2, "name": "Bradford" }
+        { "id": 2, "name": "Bradford" },
+        { "id": 3, "name": "Leeds" },
+        { "id": 4, "name": "Hull" }
+    ],
+    "2": [
+        { "id": 3, "name": "Leeds" },
+        { "id": 4, "name": "Hull" }
+    ],
+    "3": [
+        { "id": 4, "name": "Hull" }
+    ],
+    "5": [
+        { "id": 1, "name": "Manchester" }
     ]
 }
 
